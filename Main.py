@@ -1,8 +1,7 @@
 import os
 class Stack:
     #The class is implementing a stack
-    def _init_(self, size):
-        """Initializing stack with size attribute""" 
+    def __init__(self, size):
         self.items = []
         self.size = size
 
